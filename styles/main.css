@@ -1,0 +1,60 @@
+/* header */
+
+.header {
+  padding: 36px 0;
+}
+
+.nav {
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-item {
+  margin-right: 30px;
+}
+
+.nav-item:last-of-type {
+  margin-right: 0;
+}
+
+.nav-button {
+  border: 2px solid rgb(213, 98, 29);
+  border-radius: 5px;
+  padding: 15px 30px;
+}
+
+.fontanka {
+  gap: 24px;
+  margin-top: 55px;
+}
+
+.fontanka-1996 {
+  position: relative;
+}
+
+.fontanka-1996__text {
+  max-width: 623px;
+  width: 100%;
+  font-family: "Gotham Pro";
+  position: absolute;
+  display: block;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 45px;
+  margin-left: 60px;
+}
+
+.fontanka-1996__title {
+  max-width: 154px;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: 700;
+  color: #210e09;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 30px;
+}

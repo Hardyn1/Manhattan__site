@@ -1,0 +1,50 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #210e09;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Stolzl";
+  font-weight: 400;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+p,
+a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+h1 {
+  letter-spacing: 5%;
+  font-size: 40px;
+}
+
+.container {
+  max-width: 1296px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
