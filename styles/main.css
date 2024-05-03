@@ -1,7 +1,7 @@
 /* header */
 
 .header {
-  padding: 36px 0;
+  padding: 36px 0 100px;
 }
 
 .nav {
@@ -57,4 +57,266 @@
   font-size: 18px;
   text-align: center;
   margin-bottom: 30px;
+}
+
+.fontanka-posts {
+  background: #d5621d1a;
+  max-width: 416px;
+  width: 100%;
+}
+
+.fontanka-posts__title {
+  font-size: 14px;
+  font-weight: 700;
+  max-width: 208px;
+  width: 100%;
+  text-align: center;
+}
+
+.fontanka-posts__img {
+  margin-top: 39px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+/* kitchen */
+
+.kitchen {
+  padding: 20px 0 20px;
+}
+
+.top {
+  font-family: "Gotham Pro";
+}
+
+.top-text {
+  max-width: 244px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #210e09;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 700;
+  background: rgb(255, 255, 255);
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.top-title {
+  text-align: center;
+  font-weight: 700;
+}
+
+.menu {
+  margin-top: 80px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-item {
+  gap: 25px;
+  margin-bottom: 56px;
+}
+
+.menu-item:last-of-type {
+  margin-bottom: 0px;
+}
+
+.menu-item__wrap {
+  font-family: "Gotham Pro";
+  font-weight: 700;
+  font-size: 14px;
+  flex-direction: column;
+  row-gap: 5.5px;
+  max-width: 351px;
+  width: 100%;
+}
+
+.menu-item__title {
+  align-items: center;
+  font-size: 18px;
+  justify-content: space-between;
+}
+
+.menu-items__price {
+  font-size: 14px;
+  border: 2px solid #d5621d;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+}
+
+.menu-item__price {
+  color: #d5621d;
+}
+
+.menu-item__text {
+  margin-top: 4.5px;
+  font-weight: 400;
+  max-width: 332px;
+  width: 100%;
+}
+
+.kitchen-lnk {
+  margin-top: 96px;
+  text-align: center;
+}
+
+.kitchen-link {
+  text-transform: uppercase;
+  padding: 15px 30px;
+  display: inline-block;
+  background: #d5621d;
+  border-radius: 5px;
+  max-width: 171px;
+  width: 100%;
+}
+
+/* events */
+
+.events {
+  padding: 130px 0;
+}
+
+.events-main {
+  justify-content: space-between;
+}
+
+.events-banket__rank {
+  max-width: 244px;
+  width: 100%;
+  text-transform: uppercase;
+  color: #210e09;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 700;
+  background: rgb(255, 255, 255);
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.events-banket {
+  text-align: center;
+}
+
+.events-banket__text {
+  margin-top: 35px;
+  line-height: 1.5em;
+  flex-direction: column;
+  max-width: 376px;
+  width: 100%;
+  gap: 15px;
+}
+
+.events-banket__lnk {
+  margin-top: 35px;
+}
+
+.events-banket__link {
+  text-transform: uppercase;
+  padding: 15px 30px;
+  display: inline-block;
+  border: 2px solid #d5621d;
+  border-radius: 5px;
+  max-width: 171px;
+  width: 100%;
+}
+
+.events-tourists {
+  text-align: center;
+}
+
+.events-tourists__rank {
+  max-width: 276px;
+  width: 100%;
+  text-transform: uppercase;
+  color: #210e09;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 700;
+  background: rgb(255, 255, 255);
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+/* raider */
+.raider {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.party-rank {
+  max-width: 244px;
+  width: 100%;
+  text-transform: uppercase;
+  color: #210e09;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 700;
+  background: rgb(255, 255, 255);
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.party-stats {
+  margin-top: 80px;
+  max-width: 526px;
+  width: 100%;
+  text-align: left;
+}
+
+.loudspeakers {
+  padding: 20px 40px 25px 40px;
+  background: rgb(213, 98, 29);
+}
+
+.party-title {
+  justify-content: space-between;
+  font-size: 18px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.fa-chevron-down {
+  font-size: 20px;
+}
+
+.party-list {
+  padding: 0px 0px 0px 8px;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.party-link {
+  align-items: center;
+  gap: 13px;
+}
+
+.fa-circle {
+  font-size: 5px;
+}
+
+.party-dj {
+  margin-top: 20px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.party-jd__item {
+  padding: 20px 40px;
+  background: #d5621d1a;
+}
+
+.party-dj__title {
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.party-author {
+  max-width: 415px;
+  width: 100%;
+}
+
+.party-author__title {
+  font-size: 32px;
 }
